@@ -12,7 +12,7 @@ import { Menu, X } from 'lucide-react';
 export default function App() {
   const [currentView, setCurrentView] = useState<ViewMode>('dashboard');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { progress, markTheoryCompleted, markFlashcardMastered, updateQuizScore, updateWrongQuestions } = useProgress();
+  const { progress, markTheoryCompleted, markFlashcardMastered, updateQuizScore, updateWrongQuestions, toggleFlashcardStar } = useProgress();
 
   const handleNavigate = (view: ViewMode) => {
     setCurrentView(view);
@@ -56,7 +56,9 @@ export default function App() {
           {currentView === 'flashcards' && (
             <FlashcardView 
               masteredCards={progress.flashcardsMastered} 
-              onMarkMastered={markFlashcardMastered} 
+              onMarkMastered={markFlashcardMastered}
+              starredCards={progress.starredFlashcards || []}
+              onToggleStar={toggleFlashcardStar}
             />
           )}
           {currentView === 'quiz' && (

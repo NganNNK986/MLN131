@@ -8,6 +8,7 @@ const defaultProgress: StudyProgress = {
   flashcardsMastered: [],
   quizScores: {},
   wrongQuizQuestions: [],
+  starredFlashcards: [],
   lastActive: new Date().toISOString(),
 };
 
@@ -88,8 +89,28 @@ export function useProgress() {
     });
   };
 
+  const toggleFlashcardStar = (flashcardId: string) => {
+    setProgress(prev => {
+      const currentStarred = prev.starredFlashcards || [];
+      if (currentStarred.includes(flashcardId)) {
+        return {
+          ...prev,
+          starredFlashcards: currentStarred.filter(id => id !== flashcardId),
+          lastActive: new Date().toISOString(),
+        };
+      } else {
+        return {
+          ...prev,
+          starredFlashcards: [...currentStarred, flashcardId],
+          lastActive: new Date().toISOString(),
+        };
+      }
+    });
+  };
+
   return {
     progress,
+    toggleFlashcardStar,
     markTheoryCompleted,
     markFlashcardMastered,
     updateQuizScore,

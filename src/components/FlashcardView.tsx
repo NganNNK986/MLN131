@@ -1,21 +1,60 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { flashcards } from '../data';
-import { RefreshCcw, Check, ChevronLeft, ChevronRight } from 'lucide-react';
+import { RefreshCcw, Check, ChevronLeft, ChevronRight, Star } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface FlashcardViewProps {
   masteredCards: string[];
   onMarkMastered: (cardId: string) => void;
+  starredCards: string[];
+  onToggleStar: (cardId: string) => void;
 }
 
-export function FlashcardView({ masteredCards, onMarkMastered }: FlashcardViewProps) {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isFlipped, setIsFlipped] = useState(false);
-  const [showOnlyUnmastered, setShowOnlyUnmastered] = useState(false);
+const FLASHCARD_STATE_KEY = 'mln131_flashcard_state';
 
-  const activeCards = showOnlyUnmastered 
-    ? flashcards.filter(card => !masteredCards.includes(card.id))
-    : flashcards;
+export function FlashcardView({ masteredCards, onMarkMastered, starredCards, onToggleStar }: FlashcardViewProps) {
+  const [initialState] = useState(() => {
+    try {
+      const saved = localStorage.getItem(FLASHCARD_STATE_KEY);
+      if (saved) {
+        return JSON.parse(saved);
+      }
+    } catch (e) {
+      console.error('Failed to load flashcard state', e);
+    }
+    return null;
+  });
+
+  const [currentIndex, setCurrentIndex] = useState(initialState?.currentIndex || 0);
+  const [isFlipped, setIsFlipped] = useState(initialState?.isFlipped || false);
+  const [showOnlyUnmastered, setShowOnlyUnmastered] = useState(initialState?.showOnlyUnmastered || false);
+  const [showOnlyStarred, setShowOnlyStarred] = useState(initialState?.showOnlyStarred || false);
+
+  useEffect(() => {
+    localStorage.setItem(FLASHCARD_STATE_KEY, JSON.stringify({
+      currentIndex,
+      isFlipped,
+      showOnlyUnmastered,
+      showOnlyStarred
+    }));
+  }, [currentIndex, isFlipped, showOnlyUnmastered, showOnlyStarred]);
+
+  let activeCards = flashcards;
+  if (showOnlyUnmastered) {
+    activeCards = activeCards.filter(card => !masteredCards.includes(card.id));
+  }
+  if (showOnlyStarred) {
+    activeCards = activeCards.filter(card => starredCards.includes(card.id));
+  }
+
+  // Ensure currentIndex is within bounds if activeCards changes
+  useEffect(() => {
+    if (activeCards.length > 0 && currentIndex >= activeCards.length) {
+      setCurrentIndex(0);
+    }
+  }, [activeCards.length, currentIndex]);
+
+  const safeIndex = Math.min(currentIndex, Math.max(0, activeCards.length - 1));
 
   const handleNext = () => {
     setIsFlipped(false);
@@ -33,7 +72,7 @@ export function FlashcardView({ masteredCards, onMarkMastered }: FlashcardViewPr
 
   const handleMastered = () => {
     if (activeCards.length > 0) {
-      onMarkMastered(activeCards[currentIndex].id);
+      onMarkMastered(activeCards[safeIndex].id);
       handleNext();
     }
   };
@@ -44,47 +83,77 @@ export function FlashcardView({ masteredCards, onMarkMastered }: FlashcardViewPr
         <div className="w-24 h-24 bg-emerald-100 rounded-full flex items-center justify-center mb-6">
           <Check className="text-emerald-600" size={48} />
         </div>
-        <h2 className="text-2xl font-bold text-slate-800 mb-2">Tuyệt vời!</h2>
-        <p className="text-slate-600 mb-6">Bạn đã thuộc lòng tất cả các thuật ngữ.</p>
-        <button 
-          onClick={() => setShowOnlyUnmastered(false)}
-          className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
-        >
-          Ôn tập lại tất cả
-        </button>
+        <h2 className="text-2xl font-bold text-slate-800 mb-2">Không tìm thấy thẻ nào!</h2>
+        <p className="text-slate-600 mb-6">Bạn đã xem hết hoặc không có thẻ nào phù hợp với bộ lọc.</p>
+        <div className="flex gap-4">
+          <button 
+            onClick={() => { setShowOnlyUnmastered(false); setShowOnlyStarred(false); setCurrentIndex(0); }}
+            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            Xem tất cả
+          </button>
+        </div>
       </div>
     );
   }
 
-  const currentCard = activeCards[currentIndex];
+  const currentCard = activeCards[safeIndex];
   const isMastered = masteredCards.includes(currentCard.id);
+  const isStarred = starredCards.includes(currentCard.id);
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <div className="flex justify-between items-center mb-8">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
         <div>
           <h2 className="text-3xl font-bold text-slate-800">Flashcards Thuật ngữ</h2>
           <p className="text-slate-600 mt-2">Ghi nhớ nhanh các khái niệm cốt lõi.</p>
         </div>
-        <label className="flex items-center gap-2 cursor-pointer bg-slate-100 px-4 py-2 rounded-lg">
-          <input 
-            type="checkbox" 
-            checked={showOnlyUnmastered}
-            onChange={(e) => {
-              setShowOnlyUnmastered(e.target.checked);
-              setCurrentIndex(0);
-              setIsFlipped(false);
-            }}
-            className="w-4 h-4 text-blue-600 rounded"
-          />
-          <span className="text-sm font-medium text-slate-700">Chỉ hiển thị chưa thuộc</span>
-        </label>
+        <div className="flex flex-col sm:flex-row gap-3">
+          <label className="flex items-center gap-2 cursor-pointer bg-slate-100 px-4 py-2 rounded-lg">
+            <input 
+              type="checkbox" 
+              checked={showOnlyUnmastered}
+              onChange={(e) => {
+                setShowOnlyUnmastered(e.target.checked);
+                setCurrentIndex(0);
+                setIsFlipped(false);
+              }}
+              className="w-4 h-4 text-blue-600 rounded"
+            />
+            <span className="text-sm font-medium text-slate-700">Chưa thuộc</span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer bg-amber-50 px-4 py-2 rounded-lg">
+            <input 
+              type="checkbox" 
+              checked={showOnlyStarred}
+              onChange={(e) => {
+                setShowOnlyStarred(e.target.checked);
+                setCurrentIndex(0);
+                setIsFlipped(false);
+              }}
+              className="w-4 h-4 text-amber-600 rounded"
+            />
+            <span className="text-sm font-medium text-amber-700">Có sao</span>
+          </label>
+        </div>
       </div>
 
       <div className="flex flex-col items-center">
-        <div className="w-full max-w-2xl text-slate-500 mb-4 flex justify-between font-medium">
-          <span>Card {currentIndex + 1} / {activeCards.length}</span>
-          {isMastered && <span className="text-emerald-600 flex items-center gap-1"><Check size={16} /> Đã thuộc</span>}
+        <div className="w-full max-w-2xl text-slate-500 mb-4 flex justify-between font-medium items-center">
+          <span>Card {safeIndex + 1} / {activeCards.length}</span>
+          <div className="flex items-center gap-3">
+            <button 
+              onClick={(e) => {
+                e.stopPropagation();
+                onToggleStar(currentCard.id);
+              }}
+              className={`p-1.5 rounded-full transition-colors ${isStarred ? 'text-amber-500 bg-amber-50' : 'text-slate-400 hover:bg-slate-100'}`}
+              title={isStarred ? "Bỏ đánh dấu sao" : "Đánh dấu sao"}
+            >
+              <Star size={20} fill={isStarred ? "currentColor" : "none"} />
+            </button>
+            {isMastered && <span className="text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2 py-1 rounded-md"><Check size={16} /> Đã thuộc</span>}
+          </div>
         </div>
 
         {/* Flashcard */}
