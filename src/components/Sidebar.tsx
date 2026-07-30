@@ -17,12 +17,12 @@ export function Sidebar({ currentView, onNavigate }: SidebarProps) {
   ];
 
   return (
-    <div className="w-64 bg-slate-900 text-white min-h-screen flex flex-col">
-      <div className="p-6">
+    <div className="w-64 md:w-full bg-slate-900 text-white min-h-screen flex flex-col">
+      <div className="p-6 hidden md:block">
         <h1 className="text-2xl font-bold text-blue-400">MLN131 Ôn Tập</h1>
         <p className="text-sm text-slate-400 mt-1">Chủ nghĩa Xã hội Khoa học</p>
       </div>
-      <nav className="flex-1 mt-4">
+      <nav className="flex-1 mt-4 md:mt-0 pt-4 md:pt-0">
         <ul className="space-y-2 px-4">
           {menuItems.map((item) => (
             <li key={item.id}>
@@ -41,7 +41,7 @@ export function Sidebar({ currentView, onNavigate }: SidebarProps) {
           ))}
         </ul>
       </nav>
-      <div className="p-4 text-xs text-slate-500 text-center border-t border-slate-800">
+      <div className="p-4 text-xs text-slate-500 text-center border-t border-slate-800 hidden md:block">
         &copy; 2026 AI Studio - MLN131
       </div>
     </div>

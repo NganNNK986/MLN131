@@ -7,6 +7,7 @@ const defaultProgress: StudyProgress = {
   theoryCompleted: [],
   flashcardsMastered: [],
   quizScores: {},
+  wrongQuizQuestions: [],
   lastActive: new Date().toISOString(),
 };
 
@@ -65,10 +66,33 @@ export function useProgress() {
     });
   };
 
+  const updateWrongQuestions = (wrongIds: string[], correctIds: string[]) => {
+    setProgress(prev => {
+      let currentWrong = [...(prev.wrongQuizQuestions || [])];
+      
+      wrongIds.forEach(id => {
+        if (!currentWrong.includes(id)) {
+          currentWrong.push(id);
+        }
+      });
+
+      correctIds.forEach(id => {
+        currentWrong = currentWrong.filter(wId => wId !== id);
+      });
+
+      return {
+        ...prev,
+        wrongQuizQuestions: currentWrong,
+        lastActive: new Date().toISOString(),
+      };
+    });
+  };
+
   return {
     progress,
     markTheoryCompleted,
     markFlashcardMastered,
     updateQuizScore,
+    updateWrongQuestions,
   };
 }

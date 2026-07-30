@@ -26,5 +26,6 @@ export interface StudyProgress {
   theoryCompleted: string[]; 
   flashcardsMastered: string[]; 
   quizScores: Record<string, number>; // chapterId -> highest score (0-100)
+  wrongQuizQuestions: string[];
   lastActive: string;
 }
