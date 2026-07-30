@@ -11,12 +11,36 @@ interface QuizViewProps {
 
 type QuizMode = 'start' | 'all' | 'review';
 
+const QUIZ_STATE_KEY = 'mln131_quiz_state';
+
 export function QuizView({ onScoreUpdate, wrongQuestions, onUpdateWrongQuestions }: QuizViewProps) {
   const validWrongQuestions = wrongQuestions.filter(id => quizQuestions.some(q => q.id === id));
-  const [mode, setMode] = useState<QuizMode>('start');
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [userAnswers, setUserAnswers] = useState<(number | null)[]>([]);
-  const [isFinished, setIsFinished] = useState(false);
+  
+  const [initialState] = useState(() => {
+    try {
+      const saved = localStorage.getItem(QUIZ_STATE_KEY);
+      if (saved) {
+        return JSON.parse(saved);
+      }
+    } catch (e) {
+      console.error('Failed to load quiz state', e);
+    }
+    return null;
+  });
+
+  const [mode, setMode] = useState<QuizMode>(initialState?.mode || 'start');
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(initialState?.currentQuestionIndex || 0);
+  const [userAnswers, setUserAnswers] = useState<(number | null)[]>(initialState?.userAnswers || []);
+  const [isFinished, setIsFinished] = useState(initialState?.isFinished || false);
+
+  React.useEffect(() => {
+    localStorage.setItem(QUIZ_STATE_KEY, JSON.stringify({
+      mode,
+      currentQuestionIndex,
+      userAnswers,
+      isFinished
+    }));
+  }, [mode, currentQuestionIndex, userAnswers, isFinished]);
 
   const startQuiz = (selectedMode: 'all' | 'review') => {
     setMode(selectedMode);

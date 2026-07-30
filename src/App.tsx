@@ -20,9 +20,9 @@ export default function App() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-slate-50 font-sans">
+    <div className="flex flex-col md:flex-row h-screen bg-slate-50 overflow-hidden font-sans">
       {/* Mobile Header */}
-      <div className="md:hidden bg-slate-900 text-white p-4 flex justify-between items-center sticky top-0 z-20">
+      <div className="md:hidden bg-slate-900 text-white p-4 flex justify-between items-center shrink-0 z-20">
         <div>
           <h1 className="text-xl font-bold text-blue-400">MLN131 Ôn Tập</h1>
         </div>
@@ -32,7 +32,7 @@ export default function App() {
       </div>
 
       {/* Sidebar - Desktop and Mobile Drawer */}
-      <div className={`fixed inset-y-0 left-0 z-30 transform ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:relative md:translate-x-0 transition-transform duration-300 ease-in-out md:flex md:w-64 flex-col bg-slate-900 min-h-screen`}>
+      <div className={`fixed inset-y-0 left-0 z-30 transform ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:relative md:translate-x-0 transition-transform duration-300 ease-in-out md:flex md:w-64 shrink-0 flex-col bg-slate-900 h-full overflow-hidden`}>
         <Sidebar currentView={currentView} onNavigate={handleNavigate} />
       </div>
       
@@ -44,7 +44,7 @@ export default function App() {
         />
       )}
 
-      <main className="flex-1 overflow-y-auto w-full max-w-full">
+      <main className="flex-1 overflow-y-auto w-full max-w-full h-full relative">
         <div className="p-4 md:p-8">
           {currentView === 'dashboard' && <ProgressDashboard progress={progress} />}
           {currentView === 'theory' && (
