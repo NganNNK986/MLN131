@@ -5,6 +5,7 @@ import { TheoryView } from './components/TheoryView';
 import { FlashcardView } from './components/FlashcardView';
 import { QuizView } from './components/QuizView';
 import { ProgressDashboard } from './components/ProgressDashboard';
+import { TipsView } from './components/TipsView';
 import { useProgress } from './hooks/useProgress';
 
 export default function App() {
@@ -31,6 +32,9 @@ export default function App() {
           )}
           {currentView === 'quiz' && (
             <QuizView onScoreUpdate={updateQuizScore} />
+          )}
+          {currentView === 'tips' && (
+            <TipsView />
           )}
         </div>
       </main>

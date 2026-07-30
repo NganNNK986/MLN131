@@ -1,6 +1,6 @@
 import React from 'react';
 import { ViewMode } from '../types';
-import { BookOpen, CreditCard, LayoutDashboard, CheckCircle } from 'lucide-react';
+import { BookOpen, CreditCard, LayoutDashboard, CheckCircle, Lightbulb } from 'lucide-react';
 
 interface SidebarProps {
   currentView: ViewMode;
@@ -13,6 +13,7 @@ export function Sidebar({ currentView, onNavigate }: SidebarProps) {
     { id: 'theory', label: 'Lý thuyết trọng tâm', icon: <BookOpen size={20} /> },
     { id: 'flashcards', label: 'Flashcards', icon: <CreditCard size={20} /> },
     { id: 'quiz', label: 'Trắc nghiệm', icon: <CheckCircle size={20} /> },
+    { id: 'tips', label: 'Mẹo ôn tập', icon: <Lightbulb size={20} /> },
   ];
 
   return (

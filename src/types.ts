@@ -1,4 +1,4 @@
-export type ViewMode = 'dashboard' | 'theory' | 'flashcards' | 'quiz';
+export type ViewMode = 'dashboard' | 'theory' | 'flashcards' | 'quiz' | 'tips';
 
 export interface Chapter {
   id: string;
