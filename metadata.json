@@ -1,0 +1,6 @@
+{
+  "name": "MLN131 Ôn Tập",
+  "description": "Ứng dụng ôn tập môn Chủ nghĩa xã hội khoa học (MLN131) với trắc nghiệm, tóm tắt lý thuyết, flashcards và theo dõi tiến độ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
