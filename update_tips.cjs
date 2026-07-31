@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Lightbulb, AlertTriangle, Key, Target, BookOpen, Quote, TargetIcon } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+const fs = require('fs');
 
-const tipsData = [
+let fileContent = fs.readFileSync('src/components/TipsView.tsx', 'utf8');
+
+const newTipsData = `[
   {
     chapter: 'Chương 1: Nhập môn Chủ nghĩa xã hội khoa học',
     keywords: ['Cách mạng tháng Mười Nga', 'Tuyên ngôn Đảng Cộng sản', 'Giai cấp tư sản', 'Hạt nhân hợp lý', 'Mục đích CNXH', 'Lịch sử - tự nhiên'],
@@ -119,102 +119,9 @@ const tipsData = [
       'Quan hệ gia đình biến đổi phụ thuộc vào: "Điều kiện cơ sở vật chất (kinh tế) và các thiết chế chính trị - xã hội".'
     ]
   }
-];
+]`;
 
-export function TipsView() {
-  const [activeTab, setActiveTab] = useState<number | null>(0);
+fileContent = fileContent.replace(/const tipsData = \[[\s\S]*?\];/, `const tipsData = ${newTipsData};`);
 
-  return (
-    <div className="max-w-4xl mx-auto py-4">
-      <div className="mb-8 text-center">
-        <h2 className="text-3xl font-bold text-slate-800 mb-2">Mẹo Ôn Tập Nhanh</h2>
-        <p className="text-slate-500">Phân tích từ phổ đề kiểm tra - Tập trung vào các bẫy thường gặp</p>
-      </div>
-
-      <div className="space-y-4">
-        {tipsData.map((data, index) => (
-          <div key={index} className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
-            <button
-              onClick={() => setActiveTab(activeTab === index ? null : index)}
-              className="w-full text-left px-6 py-4 bg-white hover:bg-slate-50 flex items-center justify-between transition-colors"
-            >
-              <h3 className="font-semibold text-lg text-slate-800 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-blue-600" />
-                {data.chapter}
-              </h3>
-              <div className="text-slate-400">
-                {activeTab === index ? (
-                  <span className="text-xl">−</span>
-                ) : (
-                  <span className="text-xl">+</span>
-                )}
-              </div>
-            </button>
-
-            <AnimatePresence>
-              {activeTab === index && (
-                <motion.div
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: 'auto', opacity: 1 }}
-                  exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <div className="p-6 border-t border-slate-100 space-y-6">
-                    {/* Keywords Section */}
-                    <div>
-                      <h4 className="flex items-center gap-2 font-medium text-slate-700 mb-3">
-                        <Key className="w-4 h-4 text-emerald-500" />
-                        Từ khóa cốt lõi
-                      </h4>
-                      <div className="flex flex-wrap gap-2">
-                        {data.keywords.map((kw, i) => (
-                          <span key={i} className="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium border border-emerald-100">
-                            {kw}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* Tips Section */}
-                    <div>
-                      <h4 className="flex items-center gap-2 font-medium text-slate-700 mb-3">
-                        <Lightbulb className="w-4 h-4 text-amber-500" />
-                        Luận điểm ghi nhớ
-                      </h4>
-                      <ul className="space-y-2">
-                        {data.tips.map((tip, i) => (
-                          <li key={i} className="flex gap-3 text-slate-600 text-sm leading-relaxed">
-                            <span className="text-amber-500 mt-1">•</span>
-                            <span>{tip}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    {/* Traps Section */}
-                    {data.traps && data.traps.length > 0 && (
-                      <div className="bg-rose-50 p-4 rounded-lg border border-rose-100">
-                        <h4 className="flex items-center gap-2 font-medium text-rose-700 mb-2">
-                          <AlertTriangle className="w-4 h-4" />
-                          Bẫy cần lưu ý
-                        </h4>
-                        <ul className="space-y-2">
-                          {data.traps.map((trap, i) => (
-                            <li key={i} className="flex gap-2 text-rose-600 text-sm leading-relaxed">
-                              <span>-</span>
-                              <span>{trap}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
+fs.writeFileSync('src/components/TipsView.tsx', fileContent);
+console.log('TipsView.tsx updated.');
