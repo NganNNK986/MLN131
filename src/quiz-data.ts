@@ -425,22 +425,22 @@ export const quiz1Questions: QuizQuestion[] = [
     id: 'q61', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Theo chủ nghĩa Mác - Lênin, chất lượng của giai cấp công nhân được thể hiện thông qua yếu tố nào?',
     options: ['Sự chuyên nghiệp trong tác phong, kỷ luật lao động', 'Trình độ trường thành về ý thức chính trị của một giai cấp cách mạng', 'Năng lực tập hợp, vận động và thống trị nhân dân lao động thông qua đội tiên phong của mình - Đảng Cộng sản', 'Năng lực tổ chức khởi nghĩa giành chính quyền'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Sự chuyên nghiệp trong tác phong, kỷ luật lao động'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Trình độ trường thành về ý thức chính trị của một giai cấp cách mạng'
   },
   {
     id: 'q62', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Vai trò của giai cấp công nhân là gì?',
     options: ['Là chủ thể của quá trình sản xuất vật chất để sản xuất ra của cải vật chất ngày càng nhiều đáp ứng nhu cầu ngày càng tăng của con người và xã hội', 'Là chủ thể của quá trình phát triển, xây dựng nông thôn mới gắn với xây dựng các cơ sở công nghiệp, dịch vụ và phát triển đô thị', 'Là chủ thể của quá trình tổ chức chức sản xuất, kinh doanh hàng hóa nhằm thúc đẩy trao đổi và mở rộng thị trường, tối đa hoá lợi nhuận cho doanh nghiệp', 'Là chủ thể của quá trình nghiên cứu khoa học và phát triển công nghệ nhằm tạo ra tri thức mới cho xã hội'],
     correctAnswerIndex: 0,
-    explanation: 'Giải thích: Là chủ thể của quá trình sản xuất vật chất để sản xuất ra của cải vật chất ngày càng nhiều đáp ứn...'
+    explanation: 'Giải thích: Là chủ thể của quá trình sản xuất vật chất để sản xuất ra của cải vật chất ngày càng nhiều đáp ứng nhu cầu ngày càng tăng của con người và xã hội'
   },
   {
     id: 'q63', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Đặc trưng bản chất nào của chủ nghĩa xã hội thể hiện đây là chế độ xã hội vì con người, do con người?',
     options: ['Chủ nghĩa xã hội có nền kinh tế phát triển cao, dựa trên chế độ tư hữu về tư liệu sản xuất chủ yếu', 'Chủ nghĩa xã hội là chế độ xã hội do nhân dân lao động làm chủ', 'Chủ nghĩa xã hội giải phóng giai cấp công nhân, nhân dân lao động và đồng thời đàn áp giai cấp thống trị tàn bạo là giai cấp tư sản', 'Chủ nghĩa xã hội có nhà nước kiểu môi mang bản chất giai cấp công nhân, đại biểu cho lợi ích, quyền lực và ý chí của riêng giai cấp công nhân'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Chủ nghĩa xã hội có nền kinh tế phát triển cao, dựa trên chế độ tư hữu về tư liệu sản xuất chủ yếu'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Chủ nghĩa xã hội là chế độ xã hội do nhân dân lao động làm chủ'
   },
   
   {
@@ -454,36 +454,36 @@ export const quiz1Questions: QuizQuestion[] = [
     id: 'q66', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Nguyên tắc phân phối chủ yếu của chủ nghĩa xã hội là gì?',
     options: ['Làm theo năng lực, hưởng theo nhu cầu', 'Làm theo năng lực, hưởng theo lao động', 'Làm theo năng lực, hưởng theo phúc lợi xã hội', 'Làm theo công việc, hưởng theo tiền lương'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Làm theo năng lực, hưởng theo nhu cầu'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Làm theo năng lực, hưởng theo lao động'
   },
   {
     id: 'q67', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Học thuyết về hình thái kinh tế - xã hội do ai khởi xướng, và sau đó được ai bổ sung, phát triển?',
     options: ['C.Mác - V.I.Lênin khởi xưông, Ph.Ăngghen bổ sung phát triển', 'C.Mác - Ph.Ăngghen khôi xuông, V.I. Lênin bổ sung phát triển', 'C.Mác - Ph.Ăngghen khởi xưông, Chủ tịch Hồ Chí Minh bổ sung phát triển', 'C.Mác khởi xướng, Ph.Ăngghen bổ sung phát triển'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: C.Mác - V.I.Lênin khởi xưông, Ph.Ăngghen bổ sung phát triển'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: C.Mác - Ph.Ăngghen khôi xuông, V.I. Lênin bổ sung phát triển'
   },
   {
     id: 'q68', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Mâu thuẫn cơ bản của hình thái kinh tế - xã hội tư bản chủ nghĩa biểu hiện về mặt xã hội là gì?',
     options: ['Mâu thuẫn xung đột lợi ích của các nhà tư sản khác nhau', 'Cuộc đấu tranh của giai cấp công nhân chống lại giai cấp tư sản ngày càng gay gắt', 'Cuộc cạnh tranh giành việc làm của những người công nhân để tránh không bị thất nghiệp', 'Cuộc đấu tranh giành quyền điều hành quốc gia của các đảng phái tư sản'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Mâu thuẫn xung đột lợi ích của các nhà tư sản khác nhau'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Cuộc đấu tranh của giai cấp công nhân chống lại giai cấp tư sản ngày càng gay gắt'
   },
   {
     id: 'q69', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Đâu là một trong những nội dung của mối quan hệ lớn trong xây dựng chủ nghĩa xã hội ở Việt Nam hiện nay?',
     options: ['Giữa tăng trường kinh tế, thực hiện tiến bộ, công bằng xã hội, bảo vệ môi trường sống', 'Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, bảo vệ môi trường, y tế, giáo dục', 'Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, công bằng xã hội, bảo vệ môi trường', 'Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, công bằng xã hội'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Giữa tăng trường kinh tế, thực hiện tiến bộ, công bằng xã hội, bảo vệ môi trường sống'
+    correctAnswerIndex: 2,
+    explanation: 'Giải thích: Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, công bằng xã hội, bảo vệ môi trường'
   },
   {
     id: 'q70', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Thời kỳ quá độ lên chủ nghĩa xã hội là thời kỳ đấu tranh giai cấp trong điều kiện môi, điều kiện đó là gì?',
     options: ['Giai cấp tư sản đã trở thành lực lượng phản động', 'Giai cấp công nhân đã trở thành giai cấp cầm quyền', 'Sự phát triển của công nghiệp hóa dẫn đến thất nghiệp tràn lan', 'Đảng Cộng sản đã được thành lập, và ngày càng thể hiện vai trò lãnh đạo tích cực trong phong trào đấu tranh giành chính quyền'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Giai cấp tư sản đã trở thành lực lượng phản động'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Giai cấp công nhân đã trở thành giai cấp cầm quyền'
   },
   {
     id: 'q71', chapterId: 'ch1', // TODO: adjust chapterId
@@ -511,49 +511,49 @@ export const quiz1Questions: QuizQuestion[] = [
     question: 'Bản chất tư tưởng - văn hóa - xã hội của nền dân chủ xã hội chủ nghĩa là gì?',
     options: ['Lấy hệ tư tường Mác - Lênin làm chủ đạo, kế thừa, phát huy tinh hoa truyền thống dân tộc và những giá trị tư tường - văn hóa văn minh, tiến bộ nhân loại', 'Lấy hệ tư tường Mác - Lênin làm chủ đạo, kế thừa, phát huy toàn bộ tư tưởng - văn hóa nhân loại', 'Lấy hệ tư tường Mác - Lênin làm hệ tư tưởng thống trị, kế thừa toàn bộ những yếu tố truyền thống của dân tộc', 'Lấy hệ tư tường Mác - Lênin làm chủ đạo, kế thừa truyền thống tốt đẹp của dân tộc, ngăn chặn yếu tố ngoại lai xâm phạm'],
     correctAnswerIndex: 0,
-    explanation: 'Giải thích: Lấy hệ tư tường Mác - Lênin làm chủ đạo, kế thừa, phát huy tinh hoa truyền thống dân tộc và những...'
+    explanation: 'Giải thích: Lấy hệ tư tường Mác - Lênin làm chủ đạo, kế thừa, phát huy tinh hoa truyền thống dân tộc và những giá trị tư tường - văn hóa văn minh, tiến bộ nhân loại'
   },
   {
     id: 'q75', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Một trong những hướng phát triển dân chủ mà Chủ tịch Hồ Chí Minh đã đề ra là gì?',
     options: ['Dân chủ là một giá trị nhân loại chung', 'Dân chủ là người dân được tự do, hạnh phúc', 'Dân chủ là phát triển đất nước Xã hội chủ nghĩa ở Việt Nam', 'B và C đều đúng'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Dân chủ là một giá trị nhân loại chung'
+    correctAnswerIndex: 3,
+    explanation: 'Giải thích: B và C đều đúng'
   },
   {
     id: 'q76', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Đâu được xem là điều kiện tiên quyết để xây dựng nền dân chủ xã hội chủ nghĩa Việt Nam?',
     options: ['Giải phóng dân tộc, giải phóng giai cấp', 'Chăm lo giáo dục, y tế cho người dân', 'Độc lập, tự chủ, hòa bình', 'Xây dựng Đảng Cộng sản Việt Nam trong sạch, vững mạnh'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Giải phóng dân tộc, giải phóng giai cấp'
+    correctAnswerIndex: 3,
+    explanation: 'Giải thích: Xây dựng Đảng Cộng sản Việt Nam trong sạch, vững mạnh'
   },
   {
     id: 'q77', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Trong nhà nước pháp quyền, điều gì được thượng tôn?',
     options: ['Quyền lợi của giai cấp công nhân', 'Quyền lợi của nhà nước', 'Pháp luật', 'Ý chí, nguyện vọng của nhân dân lao động'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Quyền lợi của giai cấp công nhân'
+    correctAnswerIndex: 2,
+    explanation: 'Giải thích: Pháp luật'
   },
   {
     id: 'q78', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Nguyên tắc cơ bản của nền dân chủ xã hội chủ nghĩa là gì?',
     options: ['Không ngừng mở rộng dân chủ, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội', 'Không ngừng mở rộng kinh tế, nâng cao mức độ giải phóng cho những người thống trị, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội', 'Không ngừng mở rộng cơ sở hạ tầng, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội', 'Không ngừng mở rộng kiến trúc thượng tầng, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội'],
     correctAnswerIndex: 0,
-    explanation: 'Giải thích: Không ngừng mở rộng dân chủ, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham...'
+    explanation: 'Giải thích: Không ngừng mở rộng dân chủ, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội'
   },
   {
     id: 'q79', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Sự biến đổi của cơ cấu xã hội - giai cấp gắn liền và được quy định bởi sự biến động của cơ cấu nào?',
     options: ['Cơ cấu dân số', 'Cơ cấu kinh tế', 'Cơ cấu dân tộc', 'Cơ cấu dân cư'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Cơ cấu dân số'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Cơ cấu kinh tế'
   },
   {
     id: 'q80', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Trong cơ cấu xã hội - giai cấp ở Việt Nam hiện nay, giai cấp, tầng lớp nào có nhiệm vụ phát huy bản sắc văn hóa dân tộc và bảo vệ môi trường sinh thái?',
     options: ['Giai cấp công nhân', 'Giai cấp nông dân', 'Tầng lớp trí thức', 'Đội ngũ doanh nhân'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Giai cấp công nhân'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Giai cấp nông dân'
   },
   {
     id: 'q81', chapterId: 'ch1', // TODO: adjust chapterId
@@ -566,8 +566,8 @@ export const quiz1Questions: QuizQuestion[] = [
     id: 'q82', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Hai yếu tố nào cấu thành cơ sở của lịch sử chính trị và lịch sử tư tưởng của thời đại?',
     options: ['Chính trị xã hội và văn hóa', 'Cơ sở hạ tầng và kiến trúc thượng tầng', 'Sản xuất kinh tế và cơ cấu xã hội', 'Lực lượng sản xuất và quan hệ sản xuất'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Chính trị xã hội và văn hóa'
+    correctAnswerIndex: 2,
+    explanation: 'Giải thích: Sản xuất kinh tế và cơ cấu xã hội'
   },
   {
     id: 'q83', chapterId: 'ch1', // TODO: adjust chapterId
@@ -587,29 +587,29 @@ export const quiz1Questions: QuizQuestion[] = [
     id: 'q85', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Theo chủ nghĩa Mác - Lênin, tôn giáo là gì?',
     options: ['Là một thiết chế xã hội phản ánh chân thật hiện thực khách quan', 'Là một hình thái ý thức xã hội, phản ánh hư ảo hiện thực khách quan', 'Là một cơ sở xã hội, phản ánh các ý chí, nguyện vọng của tín đồ theo một giáo lý nào đó', 'Là một thực thể xã hội, điều chỉnh tâm lý con người hiệu quả'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Là một thiết chế xã hội phản ánh chân thật hiện thực khách quan'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Là một hình thái ý thức xã hội, phản ánh hư ảo hiện thực khách quan'
   },
   {
     id: 'q86', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Các thế lực thù địch sử dụng chiến lược “diễn biến hòa bình" chống phá sự nghiệp xây dựng Tổ quốc xã hội chủ nghĩa của nhân dân ta trên phương diện trọng yếu nào?',
     options: ['Ngoại giao', 'Chính trị, tư tưởng', 'Đạo đức, lối sống', 'Quân sự, chạy đua vũ trang'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Ngoại giao'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Chính trị, tư tưởng'
   },
   {
     id: 'q87', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Tôn trọng tự do tín ngưỡng cũng chính là tôn trọng vấn đề gì?',
     options: ['Tôn trọng xã hội', 'Tôn trọng pháp luật', 'Tôn trọng quyền con người', 'Tôn trọng tôn giáo'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Tôn trọng xã hội'
+    correctAnswerIndex: 2,
+    explanation: 'Giải thích: Tôn trọng quyền con người'
   },
   {
     id: 'q88', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Theo quan điểm của chủ nghĩa Mác - Lênin, nguyên nhân chính quyết định sự biến đổi của cộng đồng dân tộc là gì?',
     options: ['Sự biến đổi của giai cấp thống trị', 'Sự biến đổi của kiến trúc thượng tầng xã hội', 'Sự biến đổi của cơ sở hạ tầng xã hội', 'Sự biến đổi của phương thức sản xuất'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Sự biến đổi của giai cấp thống trị'
+    correctAnswerIndex: 3,
+    explanation: 'Giải thích: Sự biến đổi của phương thức sản xuất'
   },
   {
     id: 'q89', chapterId: 'ch1', // TODO: adjust chapterId
@@ -629,8 +629,8 @@ export const quiz1Questions: QuizQuestion[] = [
     id: 'q91', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Tại sao nói gia đình là tế bào của xã hội?',
     options: ['Vì bất kì ai cũng có gia đình riêng, có con cái và cha mẹ', 'Vì gia đình sản xuất ra tư liệu tiêu dùng, tư liệu sản xuất và tái sản xuất ra con người', 'Vì gia đình là cơ chế quản lý xã hội ở cấp độ nhỏ nhất, không thể phân chia được nữa', 'Vì gia đình là nền tảng tinh thần của xã hội'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Vì bất kì ai cũng có gia đình riêng, có con cái và cha mẹ'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Vì gia đình sản xuất ra tư liệu tiêu dùng, tư liệu sản xuất và tái sản xuất ra con người'
   },
   {
     id: 'q92', chapterId: 'ch1', // TODO: adjust chapterId
@@ -643,8 +643,8 @@ export const quiz1Questions: QuizQuestion[] = [
     id: 'q93', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Trong bối cảnh hội nhập kinh tế quốc tế và cạnh tranh hàng hóa trong khu vực và thế giới, kinh tế gia đình gặp nhiều khó khăn, trở ngại do nguyên nhân gì?',
     options: ['Do gia đình ngày càng ít thành viên hơn', 'Do thói quen, tập quán an phận, ngại thay đổi của nền tảng gia đình cũ', 'Do kinh tế gia đình phần lớn có quy mô nhỏ, lao động ít, tự sản xuất là chính', 'Do chính sách điều tiết của Nhà nước thúc đẩy kinh tế hộ gia đình phát triển thành doanh nghiệp'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Do gia đình ngày càng ít thành viên hơn'
+    correctAnswerIndex: 2,
+    explanation: 'Giải thích: Do kinh tế gia đình phần lớn có quy mô nhỏ, lao động ít, tự sản xuất là chính'
   },
   {
     id: 'q94', chapterId: 'ch1', // TODO: adjust chapterId
@@ -679,21 +679,21 @@ export const quiz1Questions: QuizQuestion[] = [
     question: 'Theo quan điểm của chủ nghĩa Mác - Lênin, tôn giáo có các nguồn gốc nào?',
     options: ['Nguồn gốc tự nhiên, kinh tế - xã hội', 'Nguồn gốc nhận thức', 'Nguồn gốc tâm lý', 'Cả 3 nguồn gốc trên'],
     correctAnswerIndex: 3,
-    explanation: 'Chủ nghĩa Mác - Lênin chỉ ra 3 nguồn gốc của tôn giáo là nguồn gốc tự nhiên (kinh tế - xã hội), nguồn gốc nhận thức và nguồn gốc tâm lý.'
+    explanation: 'Giải thích: Cả 3 nguồn gốc trên'
   },
   {
     id: 'q99', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Vấn đề: ... phải "bắc những nhịp cầu nhỏ" đi xuyên qua kinh tế tư bản để từng bước xây dựng Chủ nghĩa xã hội. Đồng thời, lưu ý "chúng ta phải hiểu những đường lối, thể thức, thủ đoạn và phương sách trung gian cần thiết để chuyển từ những quan hệ tiền tư bản chủ nghĩa lên chủ nghĩa xã hội. Đó là mấu chốt của vấn đề". Thông qua vấn đề trên hãy cho biết V.I. Lênin muốn đề cập đến đó là hình thức cơ bản nào của thời kỳ quá độ lên chủ nghĩa xã hội?',
     options: ['Không trải qua', 'Trực tiếp', 'Vừa trực tiếp vừa gián tiếp', 'Gián tiếp'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Không trải qua'
+    correctAnswerIndex: 3,
+    explanation: 'Giải thích: Gián tiếp'
   },
   {
     id: 'q100', chapterId: 'ch2',
     question: 'Điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân là gì?',
     options: ['Địa vị kinh tế của giai cấp công nhân', 'Địa vị chính trị - xã hội của giai cấp công nhân', 'Cả địa vị kinh tế và địa vị chính trị - xã hội', 'Xuất thân từ giai cấp nông dân trong xã hội phong kiến cũ'],
     correctAnswerIndex: 2,
-    explanation: 'Điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân bao gồm cả địa vị kinh tế và địa vị chính trị - xã hội của họ.'
+    explanation: 'Giải thích: Cả địa vị kinh tế và địa vị chính trị - xã hội'
   },
   {
     id: 'q101', chapterId: 'ch1', // TODO: adjust chapterId
@@ -720,30 +720,30 @@ export const quiz1Questions: QuizQuestion[] = [
     id: 'q104', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Tính tất yếu sự thay thế hình thái kinh tế - xã hội tư bản chủ nghĩa bằng hình thái kinh tế - xã hội cộng sản chủ nghĩa là quá trình như thế nào?',
     options: ['Xã hôi tự nhiên', 'Lịch sử loài người', 'Lịch sử - xã hội', 'Lịch sử - tự nhiên'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Xã hôi tự nhiên'
+    correctAnswerIndex: 3,
+    explanation: 'Giải thích: Lịch sử - tự nhiên'
   },
   
   {
     id: 'q106', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Trong thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã hội - giai cấp được xác định là gì?',
     options: ['Tổng thể các giai cấp cơ bản và các tầng lớp, nhóm xã hội không có mâu thuẫn đối kháng về mặt lợi ích.', 'Tổng thể các giai cấp, tầng lớp, các nhóm xã hội có mối quan hệ hợp tác và gắn bó chặt chẽ với nhau.', 'Tổng thể các giai cấp không cơ bản và các tầng lớp trong xã hội, bao gồm cả các giai cấp có mâu thuẫn đối kháng về lợi ích.', 'Tổng thể các giai cấp, tầng lớp trong liên minh công- nông- trí, có mối quan hệ hợp tác, gắn bó chặt chẽ với nhau.'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Tổng thể các giai cấp cơ bản và các tầng lớp, nhóm xã hội không có mâu thuẫn đối kháng về mặt lợi...'
+    correctAnswerIndex: 2,
+    explanation: 'Giải thích: Tổng thể các giai cấp không cơ bản và các tầng lớp trong xã hội, bao gồm cả các giai cấp có mâu thuẫn đối kháng về lợi ích.'
   },
   {
     id: 'q107', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Theo C.Mác và Ănghen, những cuộc đấu tranh của giai cấp công nhân ở châu Âu, nhất là ở Anh và Pháp từ giữa thế kỷ XIX thất bại vì sao?',
     options: ['Chưa có học thuyết soi đường', 'Chưa phát huy được sức mạnh đại đoàn kết toàn dân', 'Do giai cấp tư sản đàn áp dã man', 'Đơn độc, không có sự liên minh với nông dân'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Chưa có học thuyết soi đường'
+    correctAnswerIndex: 3,
+    explanation: 'Giải thích: Đơn độc, không có sự liên minh với nông dân'
   },
   {
     id: 'q108', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Quan hệ dân tộc và tôn giáo ở Việt Nam chịu sự chi phối mạnh mẽ bởi yếu tố nào?',
     options: ['Tâm lý', 'Nhận thức', 'Tâm lý và nhận thức', 'Tín ngưỡng truyền thống'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Tâm lý'
+    correctAnswerIndex: 3,
+    explanation: 'Giải thích: Tín ngưỡng truyền thống'
   },
   {
     id: 'q109', chapterId: 'ch1', // TODO: adjust chapterId
@@ -770,8 +770,8 @@ export const quiz1Questions: QuizQuestion[] = [
     id: 'q112', chapterId: 'ch1', // TODO: adjust chapterId
     question: 'Trong các cơ cấu xã hội, cơ cấu xã hội nào có vị trí quan trọng hàng đầu, chi phối các loại hình cơ cấu xã hội khác?',
     options: ['Cơ cấu xã hội - dân tộc', 'Cơ cấu xã hội dân cư', 'Cơ cấu xã hội - nghề nghiệp', 'Cơ cấu xã hội - giai cấp'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Cơ cấu xã hội - dân tộc'
+    correctAnswerIndex: 3,
+    explanation: 'Giải thích: Cơ cấu xã hội - giai cấp'
   },
   {
     id: 'q113', chapterId: 'ch1', // TODO: adjust chapterId
@@ -805,8 +805,8 @@ export const quiz1Questions: QuizQuestion[] = [
     id: 'q117', chapterId: 'ch1', // TODO: adjust chapterId
     question: '"Do lực lượng sản xuất chưa phát triển, con người cảm thấy yếu đuối, bất lực, không giải thích được, nên con người đã gán cho tự nhiên một sức mạnh, quyền lực thần bí, vấn đề này nói lên nguồn gốc nào của tôn giáo?',
     options: ['Nguồn gốc tâm lý', 'Nguồn gốc nhận thức', 'Nguồn gốc tự nhiên, kinh tế - xã hội', 'Nguồn gốc ý chí'],
-    correctAnswerIndex: 0,
-    explanation: 'Giải thích: Nguồn gốc tâm lý'
+    correctAnswerIndex: 1,
+    explanation: 'Giải thích: Nguồn gốc nhận thức'
   },
   {
     id: 'q118', chapterId: 'ch1', // TODO: adjust chapterId

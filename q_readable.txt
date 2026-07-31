@@ -1,0 +1,280 @@
+Q60: Tại sao trong thời gian đầu, giai cấp công nhân Việt Nam chậm phát triển?
+  0: Vi sinh ra và lớn lên ở một nước thuộc địa, nữa phong kiến dưới ách thống trị của thực dân Pháp
+  1: Vì lực lượng không thực sự đông đảo
+  2: Vì không có tinh thần kỷ luật và cách mạng triệt để như đặc điểm chung của giai cấp công nhân các nước tư bản phát triển
+  3: Vì chưa có tinh thần đấu tranh giai cấp, đấu tranh giải phóng dân tộc
+Q61: Theo chủ nghĩa Mác - Lênin, chất lượng của giai cấp công nhân được thể hiện thông qua yếu tố nào?
+  0: Sự chuyên nghiệp trong tác phong, kỷ luật lao động
+  1: Trình độ trường thành về ý thức chính trị của một giai cấp cách mạng
+  2: Năng lực tập hợp, vận động và thống trị nhân dân lao động thông qua đội tiên phong của mình - Đảng Cộng sản
+  3: Năng lực tổ chức khởi nghĩa giành chính quyền
+Q62: Vai trò của giai cấp công nhân là gì?
+  0: Là chủ thể của quá trình sản xuất vật chất để sản xuất ra của cải vật chất ngày càng nhiều đáp ứng nhu cầu ngày càng tăng của con người và xã hội
+  1: Là chủ thể của quá trình phát triển, xây dựng nông thôn mới gắn với xây dựng các cơ sở công nghiệp, dịch vụ và phát triển đô thị
+  2: Là chủ thể của quá trình tổ chức chức sản xuất, kinh doanh hàng hóa nhằm thúc đẩy trao đổi và mở rộng thị trường, tối đa hoá lợi nhuận cho doanh nghiệp
+  3: Là chủ thể của quá trình nghiên cứu khoa học và phát triển công nghệ nhằm tạo ra tri thức mới cho xã hội
+Q63: Đặc trưng bản chất nào của chủ nghĩa xã hội thể hiện đây là chế độ xã hội vì con người, do con người?
+  0: Chủ nghĩa xã hội có nền kinh tế phát triển cao, dựa trên chế độ tư hữu về tư liệu sản xuất chủ yếu
+  1: Chủ nghĩa xã hội là chế độ xã hội do nhân dân lao động làm chủ
+  2: Chủ nghĩa xã hội giải phóng giai cấp công nhân, nhân dân lao động và đồng thời đàn áp giai cấp thống trị tàn bạo là giai cấp tư sản
+  3: Chủ nghĩa xã hội có nhà nước kiểu môi mang bản chất giai cấp công nhân, đại biểu cho lợi ích, quyền lực và ý chí của riêng giai cấp công nhân
+Q65: Thời kỳ quá độ từ tư bản lên chủ nghĩa xã hội còn tồn tại nhiều tư tưởng khác nhau, chủ yếu trong đó là các tư tường nào?
+  0: Tư tưởng vô sản và tư tưởng tư sản
+  1: Tư tưởng vô sản và tư tường địa chủ phong kiến
+  2: Tư tưởng chủ nô và tư tường tư sản
+  3: Tư tường vô sản và tư tưởng chủ nô
+Q66: Nguyên tắc phân phối chủ yếu của chủ nghĩa xã hội là gì?
+  0: Làm theo năng lực, hưởng theo nhu cầu
+  1: Làm theo năng lực, hưởng theo lao động
+  2: Làm theo năng lực, hưởng theo phúc lợi xã hội
+  3: Làm theo công việc, hưởng theo tiền lương
+Q67: Học thuyết về hình thái kinh tế - xã hội do ai khởi xướng, và sau đó được ai bổ sung, phát triển?
+  0: C.Mác - V.I.Lênin khởi xưông, Ph.Ăngghen bổ sung phát triển
+  1: C.Mác - Ph.Ăngghen khôi xuông, V.I. Lênin bổ sung phát triển
+  2: C.Mác - Ph.Ăngghen khởi xưông, Chủ tịch Hồ Chí Minh bổ sung phát triển
+  3: C.Mác khởi xướng, Ph.Ăngghen bổ sung phát triển
+Q68: Mâu thuẫn cơ bản của hình thái kinh tế - xã hội tư bản chủ nghĩa biểu hiện về mặt xã hội là gì?
+  0: Mâu thuẫn xung đột lợi ích của các nhà tư sản khác nhau
+  1: Cuộc đấu tranh của giai cấp công nhân chống lại giai cấp tư sản ngày càng gay gắt
+  2: Cuộc cạnh tranh giành việc làm của những người công nhân để tránh không bị thất nghiệp
+  3: Cuộc đấu tranh giành quyền điều hành quốc gia của các đảng phái tư sản
+Q69: Đâu là một trong những nội dung của mối quan hệ lớn trong xây dựng chủ nghĩa xã hội ở Việt Nam hiện nay?
+  0: Giữa tăng trường kinh tế, thực hiện tiến bộ, công bằng xã hội, bảo vệ môi trường sống
+  1: Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, bảo vệ môi trường, y tế, giáo dục
+  2: Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, công bằng xã hội, bảo vệ môi trường
+  3: Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, công bằng xã hội
+Q70: Thời kỳ quá độ lên chủ nghĩa xã hội là thời kỳ đấu tranh giai cấp trong điều kiện môi, điều kiện đó là gì?
+  0: Giai cấp tư sản đã trở thành lực lượng phản động
+  1: Giai cấp công nhân đã trở thành giai cấp cầm quyền
+  2: Sự phát triển của công nghiệp hóa dẫn đến thất nghiệp tràn lan
+  3: Đảng Cộng sản đã được thành lập, và ngày càng thể hiện vai trò lãnh đạo tích cực trong phong trào đấu tranh giành chính quyền
+Q71: Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam mang bản chất giai cấp của giai cấp nào?
+  0: Công nhân
+  1: Nông dân
+  2: Tư sản
+  3: Trí thức
+Q72: Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam coi yếu tố nào là chủ thể, là trung tâm của sự phát triển?
+  0: Con người
+  1: Giai cấp công nhân
+  2: Nhân dân lao động
+  3: Đảng Cộng sản Việt Nam
+Q73: Nhà nước xã hội chủ nghĩa ra đời là kết quả của điều gì?
+  0: Cuộc cách mạng do giai cấp vô sản và nhân dân lao động tiến hành dưới sự lãnh đạo của Đảng Cộng sản
+  1: Sự phát triển lực lượng sản xuất và sự cải biến từng phần theo hướng tích cực của nhà nước tư sản
+  2: Sự mở rộng dân chủ không ngừng nhằm xoa dịu mâu thuẫn giai cấp trong xã hội tư bản
+  3: Cuộc cách mạng dân chủ nhân dân do liên minh công-nông-trí tiến hành
+Q74: Bản chất tư tưởng - văn hóa - xã hội của nền dân chủ xã hội chủ nghĩa là gì?
+  0: Lấy hệ tư tường Mác - Lênin làm chủ đạo, kế thừa, phát huy tinh hoa truyền thống dân tộc và những giá trị tư tường - văn hóa văn minh, tiến bộ nhân loại
+  1: Lấy hệ tư tường Mác - Lênin làm chủ đạo, kế thừa, phát huy toàn bộ tư tưởng - văn hóa nhân loại
+  2: Lấy hệ tư tường Mác - Lênin làm hệ tư tưởng thống trị, kế thừa toàn bộ những yếu tố truyền thống của dân tộc
+  3: Lấy hệ tư tường Mác - Lênin làm chủ đạo, kế thừa truyền thống tốt đẹp của dân tộc, ngăn chặn yếu tố ngoại lai xâm phạm
+Q75: Một trong những hướng phát triển dân chủ mà Chủ tịch Hồ Chí Minh đã đề ra là gì?
+  0: Dân chủ là một giá trị nhân loại chung
+  1: Dân chủ là người dân được tự do, hạnh phúc
+  2: Dân chủ là phát triển đất nước Xã hội chủ nghĩa ở Việt Nam
+  3: B và C đều đúng
+Q76: Đâu được xem là điều kiện tiên quyết để xây dựng nền dân chủ xã hội chủ nghĩa Việt Nam?
+  0: Giải phóng dân tộc, giải phóng giai cấp
+  1: Chăm lo giáo dục, y tế cho người dân
+  2: Độc lập, tự chủ, hòa bình
+  3: Xây dựng Đảng Cộng sản Việt Nam trong sạch, vững mạnh
+Q77: Trong nhà nước pháp quyền, điều gì được thượng tôn?
+  0: Quyền lợi của giai cấp công nhân
+  1: Quyền lợi của nhà nước
+  2: Pháp luật
+  3: Ý chí, nguyện vọng của nhân dân lao động
+Q78: Nguyên tắc cơ bản của nền dân chủ xã hội chủ nghĩa là gì?
+  0: Không ngừng mở rộng dân chủ, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội
+  1: Không ngừng mở rộng kinh tế, nâng cao mức độ giải phóng cho những người thống trị, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội
+  2: Không ngừng mở rộng cơ sở hạ tầng, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội
+  3: Không ngừng mở rộng kiến trúc thượng tầng, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội
+Q79: Sự biến đổi của cơ cấu xã hội - giai cấp gắn liền và được quy định bởi sự biến động của cơ cấu nào?
+  0: Cơ cấu dân số
+  1: Cơ cấu kinh tế
+  2: Cơ cấu dân tộc
+  3: Cơ cấu dân cư
+Q80: Trong cơ cấu xã hội - giai cấp ở Việt Nam hiện nay, giai cấp, tầng lớp nào có nhiệm vụ phát huy bản sắc văn hóa dân tộc và bảo vệ môi trường sinh thái?
+  0: Giai cấp công nhân
+  1: Giai cấp nông dân
+  2: Tầng lớp trí thức
+  3: Đội ngũ doanh nhân
+Q81: Tại sao trong thời kì quá độ lên chủ nghĩa xã hội, cơ cấu xã hội - giai cấp lại biến đổi phức tạp, đa dạng?
+  0: Vì đó là thời kì chuyển tiếp giữa cái cũ và cái mới, có nhiều yếu tố đan xen
+  1: Vì các giai cấp cạnh tranh quyền lực lãnh đạo của nhau
+  2: Vì sự chống phá của các thế lực thù địch bên ngoài
+  3: Vì trong xã hội còn tồn tại nhiều giai cấp, tầng lớp
+Q82: Hai yếu tố nào cấu thành cơ sở của lịch sử chính trị và lịch sử tư tưởng của thời đại?
+  0: Chính trị xã hội và văn hóa
+  1: Cơ sở hạ tầng và kiến trúc thượng tầng
+  2: Sản xuất kinh tế và cơ cấu xã hội
+  3: Lực lượng sản xuất và quan hệ sản xuất
+Q83: Cấu trúc cơ bản của một hình thái kinh tế - xã hội là gì?
+  0: Lực lượng sản xuất, quan hệ sản xuất và kiến trúc thượng tầng
+  1: Cơ sở kinh tế và thể chế nhà nước
+  2: Cơ sở hạ tầng và lực lượng sản xuất
+  3: Lực lượng sản xuất và quan hệ sản xuất
+Q84: Quá trình phát triển của nền dân chủ xã hội chủ nghĩa được diễn ra như thế nào?
+  0: Từ thấp đến cao, từ chưa hoàn thiện đến hoàn thiện
+  1: Từ thấp đến cao, từ đơn giản đến phức tạp
+  2: Từ thấp đến cao, diễn ra khó khăn
+  3: Từ thấp đến cao, diễn ra một cách từ từ
+Q85: Theo chủ nghĩa Mác - Lênin, tôn giáo là gì?
+  0: Là một thiết chế xã hội phản ánh chân thật hiện thực khách quan
+  1: Là một hình thái ý thức xã hội, phản ánh hư ảo hiện thực khách quan
+  2: Là một cơ sở xã hội, phản ánh các ý chí, nguyện vọng của tín đồ theo một giáo lý nào đó
+  3: Là một thực thể xã hội, điều chỉnh tâm lý con người hiệu quả
+Q86: Các thế lực thù địch sử dụng chiến lược “diễn biến hòa bình" chống phá sự nghiệp xây dựng Tổ quốc xã hội chủ nghĩa của nhân dân ta trên phương diện trọng yếu nào?
+  0: Ngoại giao
+  1: Chính trị, tư tưởng
+  2: Đạo đức, lối sống
+  3: Quân sự, chạy đua vũ trang
+Q87: Tôn trọng tự do tín ngưỡng cũng chính là tôn trọng vấn đề gì?
+  0: Tôn trọng xã hội
+  1: Tôn trọng pháp luật
+  2: Tôn trọng quyền con người
+  3: Tôn trọng tôn giáo
+Q88: Theo quan điểm của chủ nghĩa Mác - Lênin, nguyên nhân chính quyết định sự biến đổi của cộng đồng dân tộc là gì?
+  0: Sự biến đổi của giai cấp thống trị
+  1: Sự biến đổi của kiến trúc thượng tầng xã hội
+  2: Sự biến đổi của cơ sở hạ tầng xã hội
+  3: Sự biến đổi của phương thức sản xuất
+Q89: Theo quan điểm của Đảng ta về vấn đề dân tộc, ưu tiên phát triển kinh tế-xã hộ các vùng dân tộc và miền núi trước hết cần tập trung phát triển các yếu tố nào?
+  0: Giao thông và cơ sở hạ tầng, xóa đói, giảm nghèo
+  1: Kết cấu hạ tầng kỹ thuật, xóa đói giảm nghèo, y tế, giáo dục
+  2: Giao thông và kiến trúc thượng tầng, xóa đói giảm nghèo
+  3: Giao thông và kết cấu hạ tầng, y tế, giáo dục
+Q90: Trong hai mặt của vấn đề tôn giáo, mặt nào phản ánh mâu thuẫn mang tính chất đối kháng giữa các giai cấp và các thế lực lợi dụng tôn giáo chống lại sự nghiệp cách mạng của nhân dân lao động?
+  0: Mặt chính trị
+  1: Mặt tư tưởng
+  2: Không có mặt nào có tính chất mâu thuẫn đối kháng
+  3: Cả hai mặt đều có tính chất mâu thuẫn đối kháng
+Q91: Tại sao nói gia đình là tế bào của xã hội?
+  0: Vì bất kì ai cũng có gia đình riêng, có con cái và cha mẹ
+  1: Vì gia đình sản xuất ra tư liệu tiêu dùng, tư liệu sản xuất và tái sản xuất ra con người
+  2: Vì gia đình là cơ chế quản lý xã hội ở cấp độ nhỏ nhất, không thể phân chia được nữa
+  3: Vì gia đình là nền tảng tinh thần của xã hội
+Q92: Yếu tố nào ảnh hưởng đến chất lượng nguồn lực lao động mà gia đình cung cấp?
+  0: Trình độ phát triển kinh tế, văn hóa, xã hội
+  1: Trình độ phát triển kinh tế, văn hóa, nghệ thuật
+  2: Trình độ phát triển kinh tế, chính trị
+  3: Trình độ phát triển văn hoá, tư tưởng
+Q93: Trong bối cảnh hội nhập kinh tế quốc tế và cạnh tranh hàng hóa trong khu vực và thế giới, kinh tế gia đình gặp nhiều khó khăn, trở ngại do nguyên nhân gì?
+  0: Do gia đình ngày càng ít thành viên hơn
+  1: Do thói quen, tập quán an phận, ngại thay đổi của nền tảng gia đình cũ
+  2: Do kinh tế gia đình phần lớn có quy mô nhỏ, lao động ít, tự sản xuất là chính
+  3: Do chính sách điều tiết của Nhà nước thúc đẩy kinh tế hộ gia đình phát triển thành doanh nghiệp
+Q94: Quy mô gia đình ở Việt Nam hiện nay tồn tại theo xu hướng nào?
+  0: Thu nhỏ số lượng thành viên trong gia đình
+  1: Mở rộng số lượng thành viên trong gia đình
+  2: Liên kết các gia đình đơn
+  3: Quy mô nhỏ ở nông thôn và quy mô lớn ở thành thị
+Q95: Các quan hệ gia đình biến đổi, phát triển phụ thuộc vào điều gì?
+  0: Trình độ phát triển kinh tế và thể chế chính trị - xã hội
+  1: Số lượng thành viên trong gia đình
+  2: Điều kiện kinh tế của từng cá nhân trong gia đình
+  3: Các yếu tố đạo đức của một xã hội
+Q96: Trong các chế độ xã hội trước, sự thống trị của người đàn ông trong gia đình là kết quả của việc gì?
+  0: Của sự thống trị về kinh tế
+  1: Của sự phát triển chế độ quân chủ
+  2: Của sự thống trị về văn hóa
+  3: Của sự thống trị về chính trị
+Q97: Chức năng nào được coi là chức năng cơ bản và riêng có của gia đình?
+  0: Tổ chức đời sống gia đình
+  1: Tái sản xuất ra con người
+  2: Giáo dục gia đình
+  3: Thoả mãn tâm sinh lý
+Q98: Theo quan điểm của chủ nghĩa Mác - Lênin, tôn giáo có các nguồn gốc nào?
+  0: Nguồn gốc tự nhiên, kinh tế - xã hội
+  1: Nguồn gốc nhận thức
+  2: Nguồn gốc tâm lý
+  3: Cả 3 nguồn gốc trên
+Q99: Vấn đề: ... phải "bắc những nhịp cầu nhỏ" đi xuyên qua kinh tế tư bản để từng bước xây dựng Chủ nghĩa xã hội. Đồng thời, lưu ý "chúng ta phải hiểu những đường lối, thể thức, thủ đoạn và phương sách trung gian cần thiết để chuyển từ những quan hệ tiền tư bản chủ nghĩa lên chủ nghĩa xã hội. Đó là mấu chốt của vấn đề". Thông qua vấn đề trên hãy cho biết V.I. Lênin muốn đề cập đến đó là hình thức cơ bản nào của thời kỳ quá độ lên chủ nghĩa xã hội?
+  0: Không trải qua
+  1: Trực tiếp
+  2: Vừa trực tiếp vừa gián tiếp
+  3: Gián tiếp
+Q100: Điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân là gì?
+  0: Địa vị kinh tế của giai cấp công nhân
+  1: Địa vị chính trị - xã hội của giai cấp công nhân
+  2: Cả địa vị kinh tế và địa vị chính trị - xã hội
+  3: Xuất thân từ giai cấp nông dân trong xã hội phong kiến cũ
+Q101: Theo V.I.Lênin, các xu hướng khách quan của sự phát triển quan hệ dân tộc là gì?
+  0: Cộng đồng dân cư muốn tách ra để hình thành cộng đồng dân tộc độc lập
+  1: Các dân tộc trong từng quốc gia, thậm chí các dân tộc ở nhiều quốc gia muốn liên hiệp lại với nhau
+  2: Cộng đồng dân tộc yếu thế có xu hướng sáp nhập với các dân tộc có trình độ phát triển cao hơn
+  3: Cộng đồng dân tộc phát triển hưng thịnh sẽ có ý định tách ra hình thành quốc gia - dân tộc độc lập
+Q102: Theo V.I.Lênin, mục đích cao cả nhất mà chủ nghĩa xã hội cần đạt đến là gì?
+  0: Xóa bỏ sự phân chia xã hội thành giai cấp
+  1: Biến tất cả thành viên trong xã hội thành người lao động
+  2: Tiêu diệt cơ sở của mọi tình trạng người bóc lột người
+  3: Thiết lập quyền thống trị xã hội của giai cấp công nhân và nhân dân lao động
+Q103: Giai cấp nào được xem là con đẻ của nền đại công nghiệp tư bản chủ nghĩa, giai cấp đại biểu cho lực lượng sản xuất tiên tiến, cho phương thức sản xuất hiện đại?
+  0: Giai cấp công nhân
+  1: Giai cấp nông dân
+  2: Giai cấp tư sản
+  3: Giai cấp chủ nô
+Q104: Tính tất yếu sự thay thế hình thái kinh tế - xã hội tư bản chủ nghĩa bằng hình thái kinh tế - xã hội cộng sản chủ nghĩa là quá trình như thế nào?
+  0: Xã hôi tự nhiên
+  1: Lịch sử loài người
+  2: Lịch sử - xã hội
+  3: Lịch sử - tự nhiên
+Q106: Trong thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã hội - giai cấp được xác định là gì?
+  0: Tổng thể các giai cấp cơ bản và các tầng lớp, nhóm xã hội không có mâu thuẫn đối kháng về mặt lợi ích.
+  1: Tổng thể các giai cấp, tầng lớp, các nhóm xã hội có mối quan hệ hợp tác và gắn bó chặt chẽ với nhau.
+  2: Tổng thể các giai cấp không cơ bản và các tầng lớp trong xã hội, bao gồm cả các giai cấp có mâu thuẫn đối kháng về lợi ích.
+  3: Tổng thể các giai cấp, tầng lớp trong liên minh công- nông- trí, có mối quan hệ hợp tác, gắn bó chặt chẽ với nhau.
+Q107: Theo C.Mác và Ănghen, những cuộc đấu tranh của giai cấp công nhân ở châu Âu, nhất là ở Anh và Pháp từ giữa thế kỷ XIX thất bại vì sao?
+  0: Chưa có học thuyết soi đường
+  1: Chưa phát huy được sức mạnh đại đoàn kết toàn dân
+  2: Do giai cấp tư sản đàn áp dã man
+  3: Đơn độc, không có sự liên minh với nông dân
+Q108: Quan hệ dân tộc và tôn giáo ở Việt Nam chịu sự chi phối mạnh mẽ bởi yếu tố nào?
+  0: Tâm lý
+  1: Nhận thức
+  2: Tâm lý và nhận thức
+  3: Tín ngưỡng truyền thống
+Q109: Câu nói sau đây là của ai khi nói về gia đình: "... nhiều gia đình cộng lại mới thành xã hội, xã hội tốt thì gia đình càng tốt, gia đình tốt thì xã hội mới tốt. Hạt nhân của xã hội là gia đình"?
+  0: Chủ tịch Hồ Chí Minh.
+  1: C.Mác.
+  2: Ph.Ăngghen.
+  3: V.I.Lênin.
+Q110: Gia đình lệch lạc, không đạt hiệu quả bắt nguồn từ nguyên nhân nào sau đây?
+  0: Thiếu đi cơ sở văn hóa, hoặc cơ sở văn hóa không đi liền với cơ sở kinh tế, chính trị.
+  1: Thiếu đi cơ sở văn hóa và nền giáo dục.
+  2: Thiếu đi sự quan tâm của các thành viên trong gia đình.
+  3: Thiếu đi sự quản lý của nhà nước.
+Q111: Những bước chuyển mang tính bước ngoặt của kinh tế gia đình ở Việt Nam hiện nay là?
+  0: Từ kinh tế tự cấp tự túc thành kinh tế hàng hóa
+  1: Từ kinh tế bao cấp thành kinh tế thị trường
+  2: Từ đơn vị kinh tế đáp ứng nhu cầu của thị trường quốc gia thành tổ chức kinh tế đáp ứng nhu cầu thị trường toàn cầu
+  3: Từ kinh tế hộ gia đình thành kinh tế thị trường
+Q112: Trong các cơ cấu xã hội, cơ cấu xã hội nào có vị trí quan trọng hàng đầu, chi phối các loại hình cơ cấu xã hội khác?
+  0: Cơ cấu xã hội - dân tộc
+  1: Cơ cấu xã hội dân cư
+  2: Cơ cấu xã hội - nghề nghiệp
+  3: Cơ cấu xã hội - giai cấp
+Q113: Đâu là một trong những điều kiện ra đời chủ nghĩa xã hội khoa học?
+  0: Điều kiện kinh tế - xã hội
+  1: Điều kiện văn hóa - xã hội
+  2: Điều kiện chính trị - xã hội
+  3: Điều kiện khoa học
+Q114: Đặc trưng nổi bật trong quan hệ giữa các dân tộc ở nước ta là gì?
+  0: Là sự cố kết dân tộc, hoà hợp dân tộc trong một cộng đồng thống nhất
+  1: Sự khác biệt về ngôn ngữ và văn hóa là yếu tố quyết định quan hệ giữa các dân tộc
+  2: Các dân tộc sinh sống tập trung thành những vùng lãnh thổ riêng biệt
+  3: Quan hệ giữa các dân tộc chủ yếu được hình thành trên cơ sở cùng chung tín ngưỡng, tôn giáo
+Q115: Thực chất của thời kỳ quá độ lên chủ nghĩa xã hội là gì?
+  0: Là thời kỳ cải biến cách mạng từ xã hội tiền tư bản và tư bản chủ nghĩa sang xã hội xã hội chủ nghĩa
+  1: Là thời kỳ cải biến cách mạng từ xã hội cộng sản nguyên thủy lên xã hội xã hội chủ nghĩa
+  2: Là thời kỳ cải biến cách mạng từ xã hội chiếm hữu nô lệ lên xã hội xã hội chủ nghĩa
+  3: Là thời kỳ cải biến cách mạng từ xã hội xã hội chủ nghĩa lên xã hội cộng sản chủ nghĩa
+Q116: Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, hình thức sở hữu và thành phần kinh tế nào tuy còn tồn tại nhưng không giữ vai trò chủ đạo?
+  0: Sở hữu tư nhân tư bản chủ nghĩa và thành phần kinh tế tư nhân tư bản chủ nghĩa
+  1: Sở hữu tư nhân tư bản chủ nghĩa và thành phần kinh tế tập thể
+  2: Sở hữu hỗn hợp và thành phần kinh tế tư nhân tư bản chủ nghĩa
+  3: Sở hữu tập thể và thành phần kinh tế tập thể
+Q117: "Do lực lượng sản xuất chưa phát triển, con người cảm thấy yếu đuối, bất lực, không giải thích được, nên con người đã gán cho tự nhiên một sức mạnh, quyền lực thần bí, vấn đề này nói lên nguồn gốc nào của tôn giáo?
+  0: Nguồn gốc tâm lý
+  1: Nguồn gốc nhận thức
+  2: Nguồn gốc tự nhiên, kinh tế - xã hội
+  3: Nguồn gốc ý chí
